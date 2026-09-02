@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Mail, Github, Linkedin, Send, CheckCircle2 } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin, Send, CheckCircle2 } from "lucide-react";
 import { profile } from "@/lib/portfolio-data";
 import { SectionHeading } from "./SectionHeading";
 
@@ -57,6 +57,7 @@ export function Contact() {
           <ul className="space-y-3">
             {[
               { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
+              { icon: MapPin, label: "Location", value: profile.location, href: "#contact" },
               { icon: Github, label: "GitHub", value: "View my code", href: profile.github },
               { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: profile.linkedin },
             ].map((c) => (

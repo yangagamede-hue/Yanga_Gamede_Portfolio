@@ -11,14 +11,14 @@ import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
 import { profile } from "@/lib/portfolio-data";
 
-const description = `${profile.name} — ${profile.title}. Portfolio featuring full-stack projects, skills, experience, education and contact details.`;
+const description = `${profile.name} — ${profile.title}. Portfolio showcasing finance, AI, and retail operations experience, projects, education and contact details.`;
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: `${profile.name} | Full-Stack Developer Portfolio` },
+      { title: `${profile.name} | Portfolio` },
       { name: "description", content: description },
-      { property: "og:title", content: `${profile.name} | Full-Stack Developer Portfolio` },
+      { property: "og:title", content: `${profile.name} | Portfolio` },
       { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

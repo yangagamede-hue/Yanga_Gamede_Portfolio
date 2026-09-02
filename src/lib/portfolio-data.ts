@@ -8,184 +8,126 @@
 
 export const profile = {
   name: "Yanga Gamede",
-  title: "Full-Stack Developer | Problem Solver",
+  title: "BCom Accounting & Finance Graduate | CAPACITI AI Skills Accelerator Participant",
   elevatorPitch:
-    "I build fast, accessible web applications with modern JavaScript tooling and a strong eye for design. I love turning ambiguous problems into clean, working software — and I'm looking for a team where I can keep learning while shipping real value.",
-  email: "you@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
+    "Energetic BCom Accounting & Finance graduate equipped with practical AI capabilities through the CAPACITI AI Skills Acceleration program. Dedicated to leveraging financial knowledge and modern digital tools for creative problem-solving in fast-paced team environments.",
+  email: "yangagamede@gmail.com",
+  github: "https://github.com/yangagamede",
+  linkedin: "https://linkedin.com/in/yangagamede",
   location: "Johannesburg, South Africa",
   cvUrl: "/cv.pdf", // replace public/cv.pdf with your real CV
 };
 
 export const about = {
   paragraphs: [
-    "I'm a software developer with a passion for building products that feel effortless to use. My journey started with curiosity — taking apart how websites worked — and grew into a disciplined practice of designing, building, and shipping full-stack applications.",
-    "I care deeply about clean architecture, readable code, and the small details that make an interface feel polished. Whether it's a database schema or a button hover state, I believe quality compounds.",
-    "My goal is to join a team where I can contribute to meaningful projects, learn from experienced engineers, and grow into a well-rounded product engineer.",
+    "I am a BCom Accounting & Finance graduate from the University of the Witwatersrand, where I developed a strong foundation in financial analysis, accounting principles, and business decision-making. My academic training taught me to work with precision, interpret complex data, and communicate insights clearly.",
+    "Complementing my finance background, I completed the CAPACITI AI Skills Acceleration program, gaining hands-on experience with practical AI tooling, workflow automation, and digital productivity platforms. This blend of financial expertise and modern tech skills allows me to approach problems creatively and add value in dynamic, data-driven environments.",
+    "I thrive in collaborative settings, enjoy learning new tools, and am eager to contribute to teams that value accuracy, adaptability, and fresh thinking.",
   ],
-  values: [
-    { title: "Craft", description: "Clean, maintainable code over quick hacks." },
-    { title: "Curiosity", description: "Always learning a new tool, pattern, or domain." },
-    { title: "Ownership", description: "I treat every project like it's my own product." },
-    { title: "Collaboration", description: "Great software is built by great teams." },
+  badges: [
+    { icon: "MapPin", label: "Location", value: "Johannesburg, SA" },
+    { icon: "Languages", label: "Languages", value: "English, Zulu, Xhosa" },
+    { icon: "GraduationCap", label: "Education", value: "BCom (Wits University)" },
+    { icon: "Rocket", label: "Specialized Training", value: "CAPACITI AI Accelerator" },
   ],
 };
 
-export const technicalSkills: { category: string; skills: string[] }[] = [
+export const skillCategories: { category: string; skills: string[] }[] = [
   {
-    category: "Languages",
-    skills: ["TypeScript", "JavaScript", "Python", "Java", "SQL", "HTML/CSS"],
+    category: "Finance & Business",
+    skills: ["Accounting & Financial Analysis", "Inventory & Stock Control", "Retail Management"],
   },
   {
-    category: "Frameworks & Libraries",
-    skills: ["React", "Next.js", "Node.js", "Express", "Tailwind CSS", "React Native"],
+    category: "Digital & AI Capabilities",
+    skills: ["Practical AI Tooling", "Google AI Essentials", "Workflows & Prompting", "Microsoft Office Suite"],
   },
   {
-    category: "Tools & Platforms",
-    skills: ["Git & GitHub", "Docker", "Vite", "Figma", "Postman", "Linux"],
-  },
-  {
-    category: "Databases & Cloud",
-    skills: ["PostgreSQL", "MongoDB", "Supabase", "Firebase", "AWS basics"],
+    category: "Soft Skills",
+    skills: ["Customer Service", "Team Collaboration", "Creative Problem-Solving", "Time Management", "High-Volume Communication"],
   },
 ];
 
-export const softSkills = [
-  { icon: "MessageSquare", title: "Communication", description: "Clear written and verbal communication with technical and non-technical stakeholders." },
-  { icon: "Users", title: "Teamwork", description: "Comfortable in agile teams — pair programming, code reviews, and shared ownership." },
-  { icon: "Lightbulb", title: "Problem Solving", description: "Breaks complex problems into small, testable pieces before writing code." },
-  { icon: "Clock", title: "Time Management", description: "Balances coursework, projects, and deadlines with disciplined planning." },
-  { icon: "RefreshCcw", title: "Adaptability", description: "Picks up new frameworks and domains quickly; thrives on change." },
-  { icon: "Target", title: "Attention to Detail", description: "Sweats the edge cases — from validation states to pixel alignment." },
-] as const;
-
 export const projects = [
   {
-    title: "TaskFlow — Project Management App",
+    title: "AI-Driven Financial & Administrative Workflows",
     summary:
-      "A full-stack kanban board for small teams with drag-and-drop tasks, real-time updates, and role-based access.",
+      "A CAPACITI project demonstrating how AI tools can streamline business operations — from task scheduling and document preparation to reporting efficiency.",
     features: [
-      "Drag-and-drop kanban with optimistic UI updates",
-      "Real-time collaboration via WebSockets",
-      "JWT auth with role-based permissions",
+      "Automated business task scheduling using AI-assisted workflows",
+      "Document preparation and templating with generative AI tools",
+      "Improved reporting efficiency through structured prompting and automation",
     ],
-    stack: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind"],
-    liveUrl: "https://example.com",
-    codeUrl: "https://github.com/yourusername/taskflow",
+    stack: ["Google AI Essentials", "AI Workflows", "Prompt Engineering", "Business Automation"],
+    liveUrl: "#",
+    codeUrl: "https://github.com/yangagamede",
   },
   {
-    title: "ShopLite — E-Commerce Storefront",
+    title: "Financial Accounting Case Studies & Analysis",
     summary:
-      "A performant storefront with cart, checkout flow, and an admin dashboard for managing products and orders.",
+      "Analytical financial modeling and accounting case studies developed during BCom coursework at the University of the Witwatersrand.",
     features: [
-      "Server-side rendering for sub-second page loads",
-      "Stripe-powered checkout with webhooks",
-      "Admin dashboard with sales analytics",
+      "Financial statement analysis and ratio interpretation",
+      "Budgeting, forecasting, and investment appraisal models",
+      "Case-study driven reporting aligned with real business scenarios",
     ],
-    stack: ["Next.js", "TypeScript", "Stripe", "Supabase"],
-    liveUrl: "https://example.com",
-    codeUrl: "https://github.com/yourusername/shoplite",
+    stack: ["Financial Analysis", "Accounting", "Excel", "Business Modeling"],
+    liveUrl: "#",
+    codeUrl: "https://github.com/yangagamede",
   },
   {
-    title: "WeatherNow — Forecast PWA",
+    title: "Retail Inventory & Sales Optimization System",
     summary:
-      "A mobile-first progressive web app delivering hyperlocal weather forecasts, installable and fully offline-capable.",
+      "A practical framework built from real-world retail experience, focused on stock control logic, transaction accuracy, and sales performance.",
     features: [
-      "Offline-first with service worker caching",
-      "Geolocation-based automatic forecasts",
-      "Lighthouse score of 98+ across all categories",
+      "Stock control logic to reduce waste and improve inventory tracking",
+      "High-volume transaction handling with accuracy and accountability",
+      "Sales and promotional support tied to revenue growth",
     ],
-    stack: ["React", "Vite", "OpenWeather API", "PWA"],
-    liveUrl: "https://example.com",
-    codeUrl: "https://github.com/yourusername/weathernow",
+    stack: ["Inventory Management", "Stock Control", "Retail Operations", "Sales Support"],
+    liveUrl: "#",
+    codeUrl: "https://github.com/yangagamede",
   },
 ];
 
 export const experience = [
   {
-    role: "Freelance Web Developer",
-    company: "Self-employed",
-    period: "2025 — Present",
+    role: "Cashier & Sales Representative",
+    company: "The Shawarma Guys",
+    period: "May 2025 – Dec 2025",
     points: [
-      "Designed and shipped landing pages and dashboards for 3 local small businesses.",
-      "Improved one client's page load time by 60% through image optimization and code splitting.",
-      "Managed the full client lifecycle: scoping, design, development, deployment, and handover.",
-    ],
-  },
-  {
-    role: "IT Support Intern",
-    company: "TechHub Solutions",
-    period: "Jun 2024 — Dec 2024",
-    points: [
-      "Resolved 200+ support tickets while maintaining a 95% satisfaction rating.",
-      "Automated repetitive onboarding tasks with Python scripts, saving ~4 hours per week.",
-      "Documented internal processes that reduced new-hire ramp-up time.",
-    ],
-  },
-];
-
-// Shown when formal work experience is still pending — toggle in Experience.tsx
-export const academicExperience = [
-  {
-    role: "Capstone Project — Campus Event Platform",
-    company: "University Coursework",
-    period: "2025",
-    points: [
-      "Led a 4-person team building an event discovery app used in a live pilot by 300+ students.",
-      "Designed the PostgreSQL schema and REST API; wrote 80% of the backend code.",
-      "Presented the project to faculty and industry judges, earning top marks.",
-    ],
-  },
-  {
-    role: "Hackathon Finalist — FinTech Challenge",
-    company: "JHB DevFest Hackathon",
-    period: "2024",
-    points: [
-      "Built a budgeting tool prototype in 48 hours with a team of 3.",
-      "Pitched to a panel of judges and placed in the top 5 of 40 teams.",
+      "Delivered high-quality customer service while efficiently handling high-volume financial transactions.",
+      "Applied effective stock control measures to reduce waste and increase inventory tracking accuracy.",
+      "Supported sales and marketing promotions, directly contributing to revenue growth.",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "BSc Computer Science",
+    degree: "Bachelor of Commerce (BCom) in Accounting & Finance",
     institution: "University of the Witwatersrand",
-    year: "2023 — 2026 (expected)",
-    details: "Focus on software engineering, databases, and distributed systems.",
+    year: "Graduated 2025",
+    details: "Comprehensive training in accounting, financial analysis, business law, taxation, and corporate finance.",
   },
   {
-    degree: "National Senior Certificate",
-    institution: "Your High School",
-    year: "2022",
-    details: "Bachelor's pass with distinctions in Mathematics and Physical Sciences.",
+    degree: "AI Skills Acceleration Program",
+    institution: "CAPACITI Tech Talent Accelerator",
+    year: "Completed 2025",
+    details: "Intensive, hands-on training in practical AI tooling, workflow automation, prompting, and digital productivity.",
   },
 ];
 
 export const certifications = [
   {
-    name: "AWS Certified Cloud Practitioner",
-    issuer: "Amazon Web Services",
+    name: "Google AI Essentials",
+    issuer: "Google",
     date: "2025",
     credentialUrl: "#",
   },
   {
-    name: "Meta Front-End Developer",
-    issuer: "Coursera / Meta",
-    date: "2024",
-    credentialUrl: "#",
-  },
-  {
-    name: "Google Data Analytics",
-    issuer: "Coursera / Google",
-    date: "2024",
-    credentialUrl: "#",
-  },
-  {
-    name: "freeCodeCamp JavaScript Algorithms",
-    issuer: "freeCodeCamp",
-    date: "2023",
+    name: "National Senior Certificate",
+    issuer: "Little Flower Secondary School",
+    date: "2019",
     credentialUrl: "#",
   },
 ];
