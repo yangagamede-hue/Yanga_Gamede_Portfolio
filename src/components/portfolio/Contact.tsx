@@ -81,6 +81,26 @@ export function Contact() {
             ))}
           </ul>
 
+            {/* Availability + CV */}
+            <div className="rounded-xl border border-primary/25 bg-card p-5">
+              <p className="flex items-center gap-2 text-sm font-semibold">
+                <span className="size-2 rounded-full bg-primary" />
+                Available for internships &amp; full-time roles
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Typically replies within 24 hours. Prefer the short version? Grab my CV.
+              </p>
+              <a
+                href={profile.cvUrl}
+                download
+                className="mt-4 inline-flex items-center gap-2 rounded-lg border bg-background px-4 py-2 text-sm font-semibold transition-colors hover:bg-accent"
+              >
+                <Download className="size-4" /> Download CV
+              </a>
+            </div>
+          </div>
+
+
           {/* Form */}
           <form onSubmit={onSubmit} noValidate className="rounded-2xl border bg-card p-6">
             {sent && (
