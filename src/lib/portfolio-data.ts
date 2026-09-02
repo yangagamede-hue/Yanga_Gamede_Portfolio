@@ -112,7 +112,7 @@ export const education = [
   {
     degree: "AI Skills Acceleration Program",
     institution: "CAPACITI Tech Talent Accelerator",
-    year: "Completed 2025",
+    year: "Completed 2026",
     details: "Intensive, hands-on training in practical AI tooling, workflow automation, prompting, and digital productivity.",
   },
 ];
@@ -121,7 +121,7 @@ export const certifications = [
   {
     name: "Google AI Essentials",
     issuer: "Google",
-    date: "2025",
+    date: "2026",
     credentialUrl: "#",
   },
   {
