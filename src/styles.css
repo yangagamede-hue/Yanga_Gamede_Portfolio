@@ -134,13 +134,49 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@theme inline {
+  --color-primary-glow: var(--primary-glow);
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--primary) 25%, transparent);
+  }
+}
+
+/* Subtle radial glow used behind hero and section headers */
+@utility glow-primary {
+  background: radial-gradient(
+    ellipse 60% 50% at 50% 40%,
+    color-mix(in oklab, var(--primary) 18%, transparent),
+    transparent 70%
+  );
+}
+
+/* Card hover treatment shared by project/skill/cert cards */
+@utility card-hover {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+  &:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in oklab, var(--primary) 40%, var(--border));
+    box-shadow: 0 12px 32px -12px color-mix(in oklab, var(--primary) 35%, transparent);
   }
 }
