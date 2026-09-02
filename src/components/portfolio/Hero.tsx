@@ -1,6 +1,8 @@
 import { ArrowRight, Download, Mail, MapPin } from "lucide-react";
 import { profile } from "@/lib/portfolio-data";
-import headshot from "@/assets/headshot.jpg";
+import headshotAsset from "@/assets/headshot.jpg.asset.json";
+
+const headshot = headshotAsset.url;
 
 /**
  * Hero / Home — name, tagline, elevator pitch, CTAs, and headshot.
