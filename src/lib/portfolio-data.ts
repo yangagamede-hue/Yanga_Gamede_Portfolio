@@ -7,7 +7,7 @@
  */
 
 export const profile = {
-  name: "Your Name",
+  name: "Yanga Gamede",
   title: "Full-Stack Developer | Problem Solver",
   elevatorPitch:
     "I build fast, accessible web applications with modern JavaScript tooling and a strong eye for design. I love turning ambiguous problems into clean, working software — and I'm looking for a team where I can keep learning while shipping real value.",
