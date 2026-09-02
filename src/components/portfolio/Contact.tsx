@@ -54,6 +54,7 @@ export function Contact() {
 
         <div className="grid gap-8 md:grid-cols-[1fr_1.3fr]">
           {/* Direct contact badges */}
+          <div className="space-y-3">
           <ul className="space-y-3">
             {[
               { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
