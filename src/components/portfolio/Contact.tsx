@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from "react";
-import { Mail, Github, Linkedin, MapPin, Send, CheckCircle2 } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin, Send, Download, CheckCircle2 } from "lucide-react";
 import { profile } from "@/lib/portfolio-data";
 import { SectionHeading } from "./SectionHeading";
 
