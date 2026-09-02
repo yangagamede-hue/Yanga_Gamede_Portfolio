@@ -1,8 +1,8 @@
-import { User } from "lucide-react";
+import { User, icons } from "lucide-react";
 import { about } from "@/lib/portfolio-data";
 import { SectionHeading } from "./SectionHeading";
 
-/** About Me — narrative background plus core values grid. */
+/** About Me — narrative background plus quick detail badges. */
 export function About() {
   return (
     <section id="about" className="border-t py-20 sm:py-24">
@@ -10,7 +10,7 @@ export function About() {
         <SectionHeading
           icon={User}
           title="About Me"
-          subtitle="Background, motivation, and what I care about as an engineer."
+          subtitle="My financial foundation, AI training, and the details that define my profile."
         />
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr]">
           <div className="space-y-4 leading-relaxed text-muted-foreground">
@@ -19,14 +19,20 @@ export function About() {
             ))}
           </div>
           <div className="grid grid-cols-2 gap-3">
-            {about.values.map((v) => (
-              <div key={v.title} className="card-hover rounded-xl border bg-card p-4">
-                <h3 className="text-sm font-semibold text-primary">{v.title}</h3>
-                <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
-                  {v.description}
-                </p>
-              </div>
-            ))}
+            {about.badges.map((b) => {
+              const Icon = icons[b.icon as keyof typeof icons];
+              return (
+                <div key={b.label} className="card-hover rounded-xl border bg-card p-4">
+                  <span className="mb-2 inline-grid size-8 place-items-center rounded-lg bg-accent text-primary">
+                    <Icon className="size-4" />
+                  </span>
+                  <h3 className="text-sm font-semibold text-primary">{b.label}</h3>
+                  <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+                    {b.value}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
