@@ -12,8 +12,8 @@ export const profile = {
   elevatorPitch:
     "Energetic BCom Accounting & Finance graduate equipped with practical AI capabilities through the CAPACITI AI Skills Acceleration program. Dedicated to leveraging financial knowledge and modern digital tools for creative problem-solving in fast-paced team environments.",
   email: "yangagamede@gmail.com",
-  github: "https://github.com/yangagamede",
-  linkedin: "https://linkedin.com/in/yangagamede",
+  github: "https://github.com/yangagamede-hue",
+  linkedin: "https://www.linkedin.com/in/yanga-gamede-3980bb370?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   location: "Johannesburg, South Africa",
   cvUrl: "/cv.pdf", // replace public/cv.pdf with your real CV
 };
