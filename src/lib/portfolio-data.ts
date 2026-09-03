@@ -59,7 +59,7 @@ export const projects = [
     ],
     stack: ["Google AI Essentials", "AI Workflows", "Prompt Engineering", "Business Automation"],
     liveUrl: "#",
-    codeUrl: "https://github.com/yangagamede",
+    codeUrl: "https://github.com/yangagamede-hue",
   },
   {
     title: "Financial Accounting Case Studies & Analysis",
@@ -72,7 +72,7 @@ export const projects = [
     ],
     stack: ["Financial Analysis", "Accounting", "Excel", "Business Modeling"],
     liveUrl: "#",
-    codeUrl: "https://github.com/yangagamede",
+    codeUrl: "https://github.com/yangagamede-hue",
   },
   {
     title: "Retail Inventory & Sales Optimization System",
@@ -85,7 +85,7 @@ export const projects = [
     ],
     stack: ["Inventory Management", "Stock Control", "Retail Operations", "Sales Support"],
     liveUrl: "#",
-    codeUrl: "https://github.com/yangagamede",
+    codeUrl: "https://github.com/yangagamede-hue",
   },
 ];
 
